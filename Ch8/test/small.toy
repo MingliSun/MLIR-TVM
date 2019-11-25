@@ -1,0 +1,7 @@
+def main()
+{
+	var a<2,3> = [[1,2,3],[4,5,7]];
+var b<2,3> = [[1,2,3],[6,5,7]];
+var c = transpose(a)*transpose(b);
+print(c);
+}
